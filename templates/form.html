@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demi's App</title>
+</head>
+<body style = 'background-color:pink'>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Demi's App</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#"></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"></i></a>
+    </div>
+  </nav>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text"> Market Value Calculator</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict the market value of football players
+        <br>
+        </h5>
+      </div>
+
+	<form action="/submit">
+		<p>
+			<label for="wage_eur">Player Wage Per Week in Euros</label><br>
+			<input type="number" name="wage_eur">
+		</p>
+		<p>
+			<label for="overall">Overall Fifa Rating out of hundred</label><br>
+			<input type="number" name="overall">
+		</p>
+		<p>
+			<label for="potential">Fifa Potential Rating out of hundred</label><br>
+			<input type="number" name="potential">
+		</p>
+		<p>
+			<label for="skill_moves">Fifa Skill Moves out of five</label><br>
+			<input type="number" name="skill_moves">
+		</p>
+		<p>
+			<label for="weak_foot">Fifa Weak Foot Skill out of five</label><br>
+			<input type="number" name="weak_foot">
+		</p>
+		<p><button type="submit">Submit</button></p>
+	</form>
+</body>
+</html>
